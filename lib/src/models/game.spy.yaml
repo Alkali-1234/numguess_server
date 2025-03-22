@@ -1,0 +1,6 @@
+class: Game
+fields:
+  correct: int
+  timestamp: DateTime
+  duration: Duration
+  guesses: List<int>

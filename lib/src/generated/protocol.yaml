@@ -1,0 +1,8 @@
+createUserData:
+  - createUserData:
+example:
+  - hello:
+getUserData:
+  - getUserData:
+guess:
+  - guessStream:
