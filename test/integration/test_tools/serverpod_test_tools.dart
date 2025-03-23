@@ -228,7 +228,7 @@ class _GetUserDataEndpoint {
 
   _i3.Future<_i4.User?> getUserData(
     _i1.TestSessionBuilder sessionBuilder,
-    _i5.UserInfo userInfo,
+    _i5.UserInfo? userInfo,
   ) async {
     return _i1.callAwaitableFunctionAndHandleExceptions(() async {
       var _localUniqueSession =

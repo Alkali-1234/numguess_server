@@ -103,8 +103,8 @@ class Endpoints extends _i1.EndpointDispatch {
           params: {
             'userInfo': _i1.ParameterDescription(
               name: 'userInfo',
-              type: _i1.getType<_i6.UserInfo>(),
-              nullable: false,
+              type: _i1.getType<_i6.UserInfo?>(),
+              nullable: true,
             )
           },
           call: (
